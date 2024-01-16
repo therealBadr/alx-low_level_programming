@@ -3,14 +3,14 @@
 
 /**
  * _strdup - Returns a pointer a newly-allocated space in memory
- * 		containing a copy of the string given as a parameter
+ *		containing a copy of the string given as a parameter
  * @str: The string to be copied
- * 
+ *
  * Return: If str = NULL - Null
- * 		Otherwise - a pointer to the duplicated string
+ *	Otherwise - a pointer to the duplicated string
  */
 
-char	*_strdup (char *str)
+char	*_strdup(char *str)
 {
 	char	*dup;
 	int	i;
